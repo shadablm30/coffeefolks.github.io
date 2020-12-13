@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>Coffee Folks </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+ <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<script src="https://kit.fontawesome.com/93c2114221.js" crossorigin="anonymous"></script>
+	<header>
+		<nav class="row clearfix">
+			<img src="images/logo.png" class="logo">
+		 <ul class="main-nav animate__animated animate__slideInDown" id="check-class">
+			 	<li><a href="#">Coffee Delivery</a></li>
+		 		<li><a href="#">How To Order</a></li>
+	 			<li><a href="#">Check More</a></li>
+ 				<li><a href="#">Sign Up</a></li>
+         </ul>
+		<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fas fa-bars"></i></a>
+		</nav>
+		<div class="main-content-header">
+		<h1>
+         WELCOME TO <span class="colorchange">COFFEE FOLKS</span>. </br>
+         HOUSE OF COFFEE LOVER OO YES.
+		</h1>
+		<a href="#" class="btn btn-full">Click To Order</a>
+		<a href="#" class="btn btn-nav">show me more</a>
+		</div>
+	</header>
+	<body>
+		<script type="text/javascript">
+			function slideshow(){
+				var x=document.getElementById('check-class');
+				if(x.style.display ==="none"){
+					x.style.display="block";
+				}else{
+					x.style.display="none";
+				}
+			}
+		</script>
+	</body>
+</html>
